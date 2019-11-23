@@ -1,54 +1,73 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!DOCTYPE html>
 <html lang="fr-fr">
-<head>
+	<head>
 
-  <meta content="text/html; charset=UTF-8" http-equiv="content-type">
-  <title>NSI-TestWebServeur-CGI-Python</title>
+		<meta charset="UTF-8">
+		<title>NSI-TestWebServeur-CGI-Python</title>
+		<meta content="Jean-Michel HAROUY" name="author">
+		<meta content="Fichier HTML destin&eacute; &agrave; tester le fonctionnement d'un serveur web local" name="description">
+		<style>
+			h1,h2{	text-align: center;
+					font-family: Berlin Sans FB;
+					font-weight: normal;
+			}
+			h2{	color: rgb(153, 51, 153);
+			}
+			hr{	height: 2px;
+				width: 80%;
+			}
+			.nomFichier{	text-align: center;
+							font-family: Verdana;
+							font-weight: bold;
+			}
+			.placeFichier{	text-align: center;
+							font-family: Helvetica,Arial,sans-serif;
+							font-size:0.9em;
+							font-weight: normal;
+			}
+			.zoneBouton{	margin: 10px;
+							text-align: center;
+			}
+			button{	font-size: 12px;
+					width: 150px;
+					height: 40px;
+					font-family: Verdana;
+					color: rgb(204, 0, 0);
+			}
+			.auteur, .licence{	text-align: center;
+								padding: 10px;
+								font-size: 10px;
+								font-family: Helvetica,Arial,sans-serif;
+								color: rgb(102, 102, 102);
+			}
+		</style>
+	</head> 
+	
+	<body>
 
-
-  <meta content="Jean-Michel HAROUY" name="author">
-
-  <meta content="Fichier HTML destin&eacute; &agrave; tester le fonctionnement d'un serveur web local" name="description">
-
-</head>
-
-
-<body>
-
-<h1 style="text-align: center; font-family: Berlin Sans FB; font-weight: normal;">
-Num&eacute;riques et Sciences Informatiques
-</h1>
-
-<hr style="height: 2px; width: 80%;">
-<h2 style="text-align: center; font-family: Berlin Sans FB; font-weight: normal; color: rgb(153, 51, 153);">Monter
-un serveur web local Apache avec interface cgi pour scripts python</h2>
-
-<p style="text-align: center; font-family: Verdana; font-weight: bold;">Fichier
-de &nbsp;test
-: index.html</p>
-
-<p style="text-align: center; font-family: Helvetica,Arial,sans-serif;"><font size="-1"><span style="font-weight: normal;">Ce
-fichier doit &ecirc;tre plac&eacute; &agrave; la racine du
-serveur web local</span></font></p>
-
-<hr style="height: 2px; width: 80%;">
-<div style="margin: 10px; text-align: center;"><a href="cgi-bin/test.py"><button style="font-size: 12px; width: 150px; height: 40px; font-family: Verdana; color: rgb(204, 0, 0);" name="essai" type="button">Cliquez =&gt; test.py</button></a>
-</div>
-
-<div style="padding: 10px; font-size: 10px; font-family: Helvetica,Arial,sans-serif; color: rgb(102, 102, 102);">
-<div style="text-align: center;">R&eacute;alis&eacute;
-par :&nbsp; <a href="https://ent.sapiensjmh.top/svt/wp-admin/post.php?post=10120&amp;action=edit">Jean-Michel
-HAROUY</a></div>
-
-</div>
-
-<div style="text-align: center; font-family: Helvetica,Arial,sans-serif; font-size: 10px;"><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/fr/"><img alt="Licence Creative Commons" style="border-width: 0pt;" src="https://i.creativecommons.org/l/by-nc-sa/3.0/fr/88x31.png"></a><br>
-
-<span style="color: rgb(102, 102, 102);">Ce fichier est
-mis &agrave; disposition selon les termes de la </span><a style="color: rgb(102, 102, 102);" rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/fr/">Licence
-Creative Commons Attribution - Pas d&rsquo;Utilisation Commerciale
-- Partage dans les M&ecirc;mes Conditions 3.0 France</a><span style="color: rgb(102, 102, 102);">.</span>
-&gt;</div>
-
-</body>
+		<h1>Num&eacute;riques et Sciences Informatiques</h1>
+		<hr>
+		<h2>Monter un serveur web local Apache avec interface cgi pour scripts python</h2>
+		<p class="nomFichier">Fichier de &nbsp;test : index.html</p>
+		<p class="placeFichier">Ce fichier doit &ecirc;tre plac&eacute; &agrave; la racine du serveur web local</p>
+		<hr>
+		<div class="zoneBouton">
+				<a href="cgi-bin/test.py">
+					<button name="essai" type="button">Cliquez =&gt; test.py</button>
+				</a>
+		</div>
+		<div class="auteur">R&eacute;alis&eacute; par :&nbsp; 
+			<a href="https://ent.sapiensjmh.top/svt/?page_id=10120">Jean-Michel HAROUY</a>
+		</div>
+		<div class="licence">
+			<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/fr/">
+				<img alt="Licence Creative Commons" style="border-width: 0pt;" src="https://i.creativecommons.org/l/by-nc-sa/3.0/fr/88x31.png">
+			</a>
+			<br>
+			Ce fichier est mis &agrave; disposition selon les termes de la 
+				<a style="color: rgb(102, 102, 102);" rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/fr/">
+					Licence Creative Commons Attribution - Pas d&rsquo;Utilisation Commerciale - Partage dans les M&ecirc;mes Conditions 3.0 France.&gt;
+				</a>
+		</div>
+	</body>
 </html>
